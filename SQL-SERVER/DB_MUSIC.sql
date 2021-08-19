@@ -136,8 +136,11 @@ CREATE TABLE PlaylistSongs(
 	,	SongID INT NOT NULL
 	,	CONSTRAINT FK_Playlists_PlaylistSongs FOREIGN KEY(PlaylistID) REFERENCES Playlists(PlaylistID)
 	,	CONSTRAINT FK_Songs_PlaylistSongs FOREIGN KEY(SongID) REFERENCES Songs(SongID)
-	,	CONSTRAINT PK_AlbumLike PRIMARY KEY(PlaylistID, SongID)
+	,	CONSTRAINT PK_PlaylistSongs PRIMARY KEY(PlaylistID, SongID)
 )
+
+SELECT * FROM SYS.tables
+
 
 
 
