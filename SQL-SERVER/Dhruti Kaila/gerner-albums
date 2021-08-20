@@ -13,16 +13,16 @@ VALUES(1,'1','Luke','Chocolat.png',2000-11-2,1,1);
 
 
 
+INSERT INTO Genres(Genre)
 
-INSERT INTO Gernre (GenreId ,Genre );
 
-VALUES(02,'Dubstep');
-VALUES(69,'Drum & Bass');
- VALUES(92,'Jazz');
- VALUES(87,'Dubstep');
-  VALUES(83,'Reggae');
-  VALUES(63,'Baroque');
-  VALUES(12,'Techno');
-  VALUES(19,'Drum & Bass');
-  VALUES(42,'Soul');
- VALUES(21,'Opera');
+VALUES('Dubstep'),
+      ('Drum & Bass'),
+      ('Jazz'),
+      ('Dubstep'),
+       ('Reggae'),
+     ('Baroque'),
+     ('Techno'),
+     ('Drum & Bass'),
+     ('Soul'),
+     ('Opera')
