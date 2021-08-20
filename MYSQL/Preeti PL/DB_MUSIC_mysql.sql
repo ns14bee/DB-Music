@@ -22,7 +22,7 @@ CREATE TABLE Profile(
 		Picture VARCHAR(30), 
 		Gender CHAR(1) CHECK (Gender IN('M','F','O')), 
 		CONSTRAINT PK_Pofile_ProfileID PRIMARY KEY(ProfileID), 
-		CONSTRAINT FK_Users_Profile FOREIGN KEY(UserID) REFERENCES Users					(UserID), 
+		CONSTRAINT FK_Users_Profile FOREIGN KEY(UserID) REFERENCES Users(UserID), 
 		CONSTRAINT UQ_Profile_UserID UNIQUE(UserID) 
 );
 
